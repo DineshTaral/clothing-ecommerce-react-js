@@ -55,8 +55,8 @@ const SignUpForm = () => {
   };
   return (
     <div className="sign-up-container">
-      <h2>Don't have an account</h2>
-      <h1>Sign up with your email and password</h1>
+      <h2>Don't have an account?</h2>
+      <p>Sign up with your email and password</p>
 
       <form onSubmit={handleSubmit}>
         <FormInput
@@ -94,9 +94,7 @@ const SignUpForm = () => {
           onChange={handleChange}
           required
         />
-        <Button buttonType="google" type="submit">
-          Sign Up
-        </Button>
+        <Button type="submit">Sign Up</Button>
       </form>
     </div>
   );
